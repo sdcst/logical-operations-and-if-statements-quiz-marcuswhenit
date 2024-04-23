@@ -11,6 +11,7 @@ round(x)
 print(x)
 """
 
-x = Input("enter a float number:")
+x = input("enter a float number:")
+x = float(x)
 round(x)
 print(x)
